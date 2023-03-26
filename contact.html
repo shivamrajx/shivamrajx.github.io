@@ -199,20 +199,5 @@
    }
    }
    </script>
-   <script>
-      function sendEmail() {
-         Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "77fd204b74f62e",
-            Password : "62da9ffad5e74d",
-            To : 'them@website.com',
-            From : document.getElementById('email').value,
-            Subject : "Contact details of visitors",
-            Body : "And this is the body"
-         }).then(
-           message => alert(message)
-         );
-      }   
-   </script>
 </body>
 </html>
