@@ -101,12 +101,12 @@
     right: 0;
   }
 
-  .nav__link {
+  .nav__links {
     position: relative;
     left: 600;
     top: 0px;
     color: #fff;
-    margin-left: 25px;
+    margin-left: 50px;
     margin-right: 19px;
   }
 
