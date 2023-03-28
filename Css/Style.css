@@ -64,12 +64,13 @@
 
  .sidenav .navigation {
     color: #ca1a0a;
-   float: left;
+    float: left;
  }
 
  .navigation h3 {
     position: absolute;
     top: 28px;
+    z-index: 8;
  }
 
  .sidenav .navigation:hover {
@@ -809,4 +810,9 @@
   }
   }
 
- 
+   .menu-btn {
+    visibility: hidden;
+    background-color: #000;
+    position: relative;
+    z-index: 9;
+   }
