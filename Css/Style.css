@@ -52,11 +52,11 @@
  }
 
  .close_img {
-    margin-top: 13px;
-    margin-right: 50px;
+    margin-top: 12px;
     padding: 12px;
+    padding-right: 50px;
     float: right;
-    background-color: #0C0C0C;
+    background-color: #000;
     height: 40px;
     position: relative;
     z-index: 10;
@@ -809,10 +809,3 @@
     top: 50%;
   }
   }
-
-   .menu-btn {
-    visibility: hidden;
-    background-color: #000;
-    position: relative;
-    z-index: 9;
-   }
