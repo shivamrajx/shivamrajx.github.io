@@ -265,6 +265,7 @@
     bottom: 60px;
     text-align: center;
     width: 100%;
+    white-space: nowrap;
    }
 
    .social-links a {
