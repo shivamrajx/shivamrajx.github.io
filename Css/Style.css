@@ -133,11 +133,6 @@
     }
   }
 
-  .container-fluid {
-    color: #fff;
-    background: #111B10
-  }
-
    .logo {
     font-family: 'Karla', sans-serif;
     cursor: pointer;
@@ -253,6 +248,7 @@
 
    .contact-container .cta {
     padding: 0px;
+    white-space: nowrap;
    }
 
    .contact-container .cta button {
@@ -261,6 +257,7 @@
     left: 0;
     right: 0;
     text-align: center;
+    white-space: nowrap;
    }
 
    .contact-container .social-links {
@@ -583,7 +580,6 @@
   }
 
   h5 {
-    color: #000;
     text-align: center;
   }
    
