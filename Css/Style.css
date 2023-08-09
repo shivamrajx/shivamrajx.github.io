@@ -1385,7 +1385,7 @@ h5 {
     margin-bottom: 10px;
   }
 
-  .disclamer {
+  .disclaimer {
     background-color: #e6e6e6;
     text-align: left;
     width: 100%;
@@ -1397,19 +1397,19 @@ h5 {
     z-index: 2;
   }
 
-  .disclamer span {
+  .disclaimer span {
     background-color: #ca1a0a;
     color: #fff;
     padding: 8px;
     border-radius: 4px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;  
     margin: 2px;
     line-height: 2.5;
   }
 
   
   @media screen and (max-width: 336px) {
-    .disclamer, .disclamer a {
+    .disclaimer, .disclaimer a {
       font-size: 15px;
     }
  
