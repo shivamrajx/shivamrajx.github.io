@@ -1412,7 +1412,11 @@ h5 {
     .disclaimer, .disclaimer a {
       font-size: 15px;
     }
- 
+
+    @media screen and (max-width: 327px) {
+    .disclaimer, .disclaimer a {
+      font-size: 12px;
+    }
 }
 
   .bar-group {
