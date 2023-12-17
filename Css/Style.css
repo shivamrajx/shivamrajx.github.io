@@ -452,7 +452,7 @@
     display: block;
   }
 
-  @media screen and (max-width: 913px) {
+  @media screen and (max-width: 991px) {
     .about-lg {
       display: none;
     }
@@ -503,7 +503,7 @@
     display: none;
   }
 
-  @media screen and (max-width: 913px) {
+  @media screen and (max-width: 991px) {
     .about-sm {
       display: block;
     }
