@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="#000" />
     <!-- Chrome, Firefox OS and Opera --><meta name="theme-color" content="#454545">
     <!-- Windows Phone --><meta name="msapplication-navbutton-color" content="#454545">
@@ -30,12 +30,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
   </head>
   <body onload="myFunction()">
-<div id="loading"></div>
-<div id="sidenavMain">
+  <div id="loading"></div>
+  <div id="sidenavMain">
   <div class="sidenavExit" onclick="closeNav()"></div>
   <div id="mySidenav" class="sidenav">
     <div class="menu-top" id="menuTop"><a href="javascript:void(0)" class="closebtn" id="close" onclick="closeNav()">
-      <img height="30" src="Image/close.png" class="close_img" alt="Close Button"></a></div><br>
+      <img height="30" src="Image/close.png" class="close_img" alt="Close Button" loading="lazy"></a></div><br>
       <a href="javascript:void(0)" class="navigation"><h3>NAVIGATION</h3></a><br><br><br>
     <a href="#about-sm" onclick="closeNav()" style="line-height: 40px;">About</a>
     <a href="#work" onclick="closeNav()" style="line-height: 40px;">Work</a>
@@ -49,8 +49,8 @@
    </div>
   </div></div>
 
-<header class="navbar" id="navbar">
-  <div class="logo"><a href="index.html"><img src="Image/Logo.png" alt="Logo">Shivam<font color="red">.</font></a></div>
+ <header class="navbar" id="navbar">
+  <div class="logo"><a href="index.html"><img src="Image/Logo.png" alt="Logo" loading="lazy">Shivam<font color="red">.</font></a></div>
   <nav>
     <ul class="nav__links">
       <li><a href="#about-lg" class="hover-underline-animation">About</a></li>
@@ -58,58 +58,59 @@
       <li><a href="#skills" class="hover-underline-animation">Skills</a></li>
     </ul>
   </nav>
-  <a href="javascript:void(0);" class="cta" href="contact"><button onclick="window.location.href ='contact.html'"><i class="fa-solid fa-message message-icon"></i><b>Contact</b>  <img src="Image/Right-arrow.png" class="right-arrow" alt="Right Arrow"></button></a>
-  <a href="javascript:void(0);" class="icon" onclick="openNav()"><img src="Image\menu.png" height="25px" alt="Menu Button"></a>
-</header>
-<br><br>
+  <a href="javascript:void(0);" class="cta" href="contact"><button onclick="window.location.href ='contact.html'"><i class="fa-solid fa-message message-icon"></i><b>Contact</b>  <img src="Image/Right-arrow.png" class="right-arrow" alt="Right Arrow" loading="lazy"></button></a>
+  <a href="javascript:void(0);" class="icon" onclick="openNav()"><img src="Image\menu.png" height="25px" alt="Menu Button" loading="lazy"></a>
+ </header>
+ <br><br>
 
  <div class="header-sm"><br><br>
    <img src="Image\Shivam 1.png" class="myImage"  height="300" alt="Shivam"><br><br>
    <p class="intro">I'm Shivam <br><strong><span class="web-dev-sm"></span></strong>
     <p class="lines">I design and code beautifully simple things, and I love what I do.</p></p>
-</div>
-<div class="header-lg"><br><br>
-  <img src="Image\Shivam 1.png" class="myImage"  height="483" alt="Shivam"><br><br>
+ </div>
+ <div class="header-lg"><br><br>
+  <img src="Image\Shivam 1.png" class="myImage" height="483" alt="Shivam" loading="lazy"><br><br>
    <p class="intro">I'm Shivam <br><strong><span class="web-dev-lg"></span></strong>
     <p class="lines">I design and code beautifully simple things,<br> and I love what I do.</p></p>
     <div class="social-links">
         <hr class="dash"><a href="https://github.com/Shivam-Raj-2007" target="_blank"><i class="fa-brands fa-github github"></i></a>
         <a href="mailto:shivam1207raj@gmail.com"><i class="fa-solid fa-envelope mail"></i></a> <hr class="dash">
     </div>
-</div>
-
-<section>
-<div class="about-lg" id="about-lg"><br>
-  <div class="about-title"><h1>About Me</h1></div>
- <div class="about-container">
-  <div class="about"><h4>Hi! Nice to meet you</h4>
-  I am 16 and I am from Patna. I have been indulged in web developing since I was 13. I have always been passionate about it from the beginning I enjoy making websites. Some of my other hobbies are listening to music and playing football. 
-</div><hr class="ruler">
-   <div class="education">
-    <h4>My Education</h4>
-    I study at <a class="links" href="https://dpspatna.com" target="_blank"><i class="fa-solid fa-link"></i> Delhi&nbspPublic&nbspSchool,&nbspPatna</a> and I am currently in grade 10<sup>th</sup>. I have great inclination towards Mathematics and Computer. 
-    For more information about my school  <a class="links" href="https://en.wikipedia.org/wiki/Delhi_Public_School,_Patna" class="links" target="_blank"><i class="fa-solid fa-link"></i> Wikipedia</a>. 
-  </div>
  </div>
- <div class="myLogo"><img src="Image/Logo.png" alt="Logo"></div>
-</div>
 
-<div class="about-sm" id="about-sm"><br><br>
+ <section>
+ <div class="about-lg" id="about-lg"><br>
  <div class="about-title"><h1>About Me</h1></div>
- <div class="myLogo"><img src="Image/Logo.png" alt=""></div>
+ <div class="about-container">
+   <div class="about"><h4>Hi! Nice to meet you</h4>
+     I am 16 and I am from Patna. I have been indulged in web developing since I was 13. I have always been passionate about it from the beginning I enjoy making websites. Some of my other hobbies are listening to music and playing football. 
+   </div>
+   <hr class="ruler">
+   <div class="education">
+     <h4>My Education</h4>
+     I study at <a class="links" href="https://dpspatna.com" target="_blank"><i class="fa-solid fa-link"></i> Delhi&nbspPublic&nbspSchool,&nbspPatna</a> and I am currently in grade 10<sup>th</sup>. I have great inclination towards Mathematics and Computer. 
+     For more information about my school  <a class="links" href="https://en.wikipedia.org/wiki/Delhi_Public_School,_Patna" class="links" target="_blank"><i class="fa-solid fa-link"></i> Wikipedia</a>. 
+   </div>
+ </div>
+ <div class="myLogo"><img src="Image/Logo.png" alt="Logo" loading="lazy"></div>
+ </div>
+
+ <div class="about-sm" id="about-sm"><br><br>
+ <div class="about-title"><h1>About Me</h1></div>
+ <div class="myLogo"><img src="Image/Logo.png" alt="Logo" loading="lazy"></div>
  <div class="about"><h4>Hi! Nice to meet you</h4>
   I am 16 and I am from Patna. I have been indulged in web developing since I was 13. I have always been passionate about it from the beginning I enjoy making websites. Some of my other hobbies are listening to music and playing football. 
  </div><hr class="rounded">
-<div class="education"><h4>My Education</h4>
+ <div class="education"><h4>My Education</h4>
   I study at <a class="links" href="https://dpspatna.com" target="_blank"><i class="fa-solid fa-link school-link"></i>&nbspDelhi&nbspPublic&nbspSchool,&nbspPatna</a> and I am currently in grade 10<sup>th</sup>. I have great inclination towards Mathematics and Computer. 
   For more information about my school  <a class="links" href="https://en.wikipedia.org/wiki/Delhi_Public_School,_Patna" class="links" target="_blank"><i class="fa-solid fa-link"></i> Wikipedia</a>.
 
-</div>
-</div>
-</section>
+ </div>
+ </div>
+ </section>
 
-<section>
-<div class="container-fluid p-0 m-0 align-items-center justify-content-center d-flex" id="work" style="background-color: #fff;">
+ <section>
+ <div class="container-fluid p-0 m-0 align-items-center justify-content-center d-flex" id="work" style="background-color: #fff;">
       
 		<!-- Row for the card-->
     
@@ -119,7 +120,7 @@
       <!--column for card -->
 			<div class="col-lg-4 mb-2">
 				<div class="card mx-auto">
-					<img class="card-img-top" src="Image/Project-1 (Logo).png"	alt="Delhi Public School Patna (Logo)" title="Delhi Public School Patna">
+					<img class="card-img-top" src="Image/Project-1 (Logo).png"	alt="Delhi Public School Patna (Logo)" title="Delhi Public School Patna" loading="lazy">
 					<div class="card-body">
             <div class="disclaimer"><span><b> Disclaimer </b></span><p>The  content of this website is taken from <a class="links" href="https://dpspatna.com" target="_blank"><i class="fa-solid fa-link"></i> www.dpspatna.com</a></p></div><br><br><br><br>
             <p>I have tried to create the copy of my school website. I have put all my efforts to recreate the website which could be as similar as possible to the original one with enhanced features and styles. I hope you&nbsplike&nbspit</p> 
@@ -133,7 +134,7 @@
 			<!-- Another column for card -->
 			<div class="col-lg-4 mb-2">
 				<div class="card mx-auto">
-					<img class="card-img-top" src="Image/Project-2 (Logo).png" alt="Music Player (Logo)" title="Music Player">
+					<img class="card-img-top" src="Image/Project-2 (Logo).png" alt="Music Player (Logo)" title="Music Player" loading="lazy">
 					<div class="card-body">
 						<p>I have also tried to create a simple music player website. Currently it only has three songs, but I will work further on it in the future. I really wanted to try my hands on this website. I hope my efforts are showcased&nbspin&nbspit.</p>
 					  <div class="visit-web">
@@ -146,7 +147,7 @@
       <!-- Another Column for card -->
       <div class="col-lg-4 mb-2">
         <div class="card mx-auto">
-          <img class="card-img-top" src="Image/Project-3 (Logo).png" alt="ICT Intigrated Project (Logo)" title="ICT Intigrated Project" style="padding: 0px; border-top-right-radius: 15px;  border-top-left-radius: 15px">
+          <img class="card-img-top" src="Image/Project-3 (Logo).png" alt="ICT Intigrated Project (Logo)" title="ICT Intigrated Project" style="padding: 0px; border-top-right-radius: 15px;  border-top-left-radius: 15px" loading="lazy">
           <div class="card-body">
               <p style="padding-top: 0px;">In this website I have try to showcase the culture of three major states of India i.e. Bihar, Mizoram and Tripura. This is one of mine school project website as well as one of my initial project. I hope you&nbsplike&nbspit.</p>
               <div class="visit-web">
@@ -158,15 +159,15 @@
       </div>
 
 		</div>
-</section>
+ </section>
 
-<section>
+ <section>
     <div class="skills" id="skills">
       <div class="skills-title"><h1>My Skills</h1></div>
       <div class="bar-group">
         <div class="bar">
           <div class="html">
-            <img src="Image/html.png" alt="Html Logo" height="50px"> 
+            <img src="Image/html.png" alt="Html Logo" height="50px" loading="lazy"> 
             <b class="lang">HTML</b><br>
             <b><div class="percent"><span class="per" data-val="96">0</span>%</div></b>
           </div>
@@ -175,7 +176,7 @@
         
         <div class="bar">
           <div class="css">
-            <img src="Image/css.png" alt="Css Logo" height="50px"> 
+            <img src="Image/css.png" alt="Css Logo" height="50px" loading="lazy"> 
             <b class="lang">CSS</b><br>
             <b><div class="percent"><span class="per" data-val="75">0</span>%</div></b>
           </div>
@@ -184,7 +185,7 @@
         
         <div class="bar">
           <div class="bstrap">
-            <img src="Image/bootstrap.png" alt="Bootstrap Logo" height="50px"> 
+            <img src="Image/bootstrap.png" alt="Bootstrap Logo" height="50px" loading="lazy"> 
             <b class="lang">Bootstrap</b><br>
             <b><div class="percent"><span class="per" data-val="60">0</span>%</div></b>
           </div>
@@ -193,7 +194,7 @@
         
         <div class="bar">
           <div class="js">
-            <img src="Image/js.jpg" alt="JavaScript Logo" height="50px"> 
+            <img src="Image/js.jpg" alt="JavaScript Logo" height="50px" loading="lazy"> 
             <b class="lang">JavaScript</b><br>
             <b><div class="percent"><span class="per" data-val="30">0</span>%</div></b>
           </div>
@@ -201,41 +202,41 @@
         </div>
         </div>
       </div>
-</section>
+ </section>
 
-<section class="contact-sec">
+ <section class="contact-sec">
   <div class="contact">
     <div class="contact-title"><h1>Want To Contact Me</h1></div>
     <p>
      Do you want a website that suits your personal or business needs? Do you want a web developer and designer who can create a website that is beautiful and functional? If yes, join me on my journey of web development project. Contact me today and let's get started.
     </p>
-    <a href="javascript:void(0);" class="cta"><button onclick="window.location.href ='contact.html'"><i class="fa-solid fa-message message-icon"></i><b>Contact</b>  <img src="Image/Right-arrow.png" class="right-arrow" alt="Right Arrow"></button></a><br><br>
+    <a href="javascript:void(0);" class="cta"><button onclick="window.location.href ='contact.html'"><i class="fa-solid fa-message message-icon"></i><b>Contact</b>  <img src="Image/Right-arrow.png" class="right-arrow" alt="Right Arrow" loading="lazy"></button></a><br><br>
   </div>
-</section>
+ </section>
 
-<section>
+ <section>
   <div class="copywrite">
     <p>©2024 SHIVAM RAJ All RIGHTS RESERVED.</p>
   </div>
-</section>
+ </section>
 
-<div class="responsive-text">
-  <img src="Image/404.png" alt="404"><br>
+ <div class="responsive-text">
+  <img src="Image/404.png" alt="404" loading="lazy"><br>
   <b>Not Supported</b>
-</div>
+ </div>
 
-<script src="Js/script.js"></script>
+ <script src="Js/script.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity= "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity= "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+ </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity= "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity= "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+ </script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+ </script>
 
-<script>
+ <script>
   function openNav() {
     document.getElementById("mySidenav").style.width = "262px";
     document.body.style.overflow = "hidden";
@@ -247,17 +248,17 @@
     document.body.style.overflow = "scroll";
     document.getElementById("sidenavMain").style.width = "0";
   }
-</script>
-<script>
+ </script>
+ <script>
   var preloader = document.getElementById('loading');
 
   function myFunction() {
     preloader.style.display = 'none';
     document.body.style.overflow = 'scroll';
   }
-</script>
-<script src="Js/typed.js"></script>
-<script>
+ </script>
+ <script src="Js/typed.js"></script>
+ <script>
   var typed = new Typed('.web-dev-sm', {
     strings: [
       ' A  Web Developer ',
@@ -271,7 +272,7 @@
     backSpeed: 60,
     loop: true
   });
-  </script>
+ </script>
   <script>
     var typed = new Typed('.web-dev-lg', {
       strings: [
@@ -300,5 +301,5 @@
     }
     }
     </script>
-</body>
+ </body>
 </html>
