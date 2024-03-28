@@ -514,17 +514,6 @@ body::-webkit-scrollbar {
   font-weight: bolder;
 }
 
-.school-link {
-  visibility: visible;
-}
-
-@media screen and (max-width: 350px) {
-  .school-link {
-    display: none;
-  }
-  
-}
-
 .active {
   background-color: pink;
 }
