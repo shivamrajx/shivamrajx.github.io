@@ -292,9 +292,7 @@ button:hover {
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #000
-    url('https://raw.githubusercontent.com/Shivam-Raj-2007/shivam-raj-2007.github.io/main/Image/loader.gif')
-    no-repeat center;
+    background: #000;
     z-index: 100000;
     overflow: hidden;
   }
@@ -1103,119 +1101,154 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
   #loading{
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      background: #000
-      url('https://raw.githubusercontent.com/Shivam-Raj-2007/shivam-raj-2007.github.io/main/Image/loader.gif')
-      no-repeat center;
-      z-index: 100000;
-      overflow: hidden;
-    }
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 100000;
+    overflow: hidden;
+  }
 
-    .header-sm {
-      height: 100%;
-      width: 100%;
-      text-align: center;
-      background-color: #000;
-      color: #fff;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    }
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .intro {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 35px;
-    }
+  .loading-bar {
+    position: relative;
+    top: 0%;
+    width: 200px;
+    height: 7.5px;
+    background-color: #fff;
+    border-radius: 5px;
+    animation: loadingAnimation 2s infinite alternate;
+  }
 
-    .web-dev-sm,.web-dev-lg {
-      font-weight: bolder;
-      font-size: 30px;
-      background-image: linear-gradient(207deg, #ca1a0a 40%, #a7190c 60%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+  @keyframes loadingAnimation {
+    0% {
+      width: 0;
     }
+    100% {
+      width: 200px;
+    }
+    100% {
+      width: 200px;
+    }
+    0% {
+      width: 0;
+    }
+  }
 
+  .header-sm {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+  .intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+  }
+
+  .web-dev-sm,.web-dev-lg {
+    font-weight: bolder;
+    font-size: 30px;
+    background-image: linear-gradient(207deg, #ca1a0a 40%, #a7190c 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .web-dev-sm {
+    text-align: center;
+    padding: 15px;
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  @media screen and (max-width:357px){
     .web-dev-sm {
-      text-align: center;
-      padding: 15px;
-      padding-right: 0px;
-      width: 100%;
+      font-size: 27px;
     }
+  }
 
-    @media screen and (max-width:357px){
-      .web-dev-sm {
-        font-size: 27px;
-      }
+  @media screen and (max-width:327px){
+    .web-dev-sm {
+      font-size: 26px;
     }
+  } 
 
-    @media screen and (max-width:327px){
-      .web-dev-sm {
-        font-size: 26px;
-      }
-    } 
+  .header-sm .myImage {
+    margin-top: 20px;
+    padding-top: 10px;
+  }
 
-    .header-sm .myImage {
-      margin-top: 20px;
-      padding-top: 10px;
-    }
+  .header-sm .lines {
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .header-sm {
+    display: none;
+  }
 
-    .header-sm .lines {
-      font-size: 20px;
-      color: gray;
-      padding: 10px;
-      padding-bottom: 50px;
-    }
-    
+  @media screen and (max-width: 649px) {
     .header-sm {
-      display: none;
-    }
-
-    @media screen and (max-width: 649px) {
-      .header-sm {
-        display: block;
-      }
-    }
-
-    .header-lg {
-      height: 100%;
-      width: 100%;
-      background-color: #000;
-      color: #fff;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    }
-
-    .header-lg .myImage {
-      float: right;
-      padding-top: 15px;
-    }
-
-    .header-lg .intro {
-      padding-left: 50px; 
-      padding-top: 100px; 
-    }
-
-    .header-lg .lines {
-      font-size: 20px;
-      color: gray;
-      padding-left: 50px;
-      padding-bottom: 10px;
-    }
-
-    .header-lg .social-links {
-      padding-left: 50px;
-      padding-bottom: 100px;
-    }
-    
-    .header-lg {
       display: block;
     }
+  }
 
-    @media screen and (max-width: 649px) {
-      .header-lg {
-        display: none;
-      }
+  .header-lg {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+  .header-lg .myImage {
+    float: right;
+    padding-top: 15px;
+  }
+
+  .header-lg .intro {
+    padding-left: 50px; 
+    padding-top: 100px; 
+  }
+
+  .header-lg .lines {
+    font-size: 20px;
+    color: gray;
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+
+  .header-lg .social-links {
+    padding-left: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .header-lg {
+    display: block;
+  }
+
+  @media screen and (max-width: 649px) {
+    .header-lg {
+      display: none;
     }
+  }
 
   .dash {
     width: 3%;
