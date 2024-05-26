@@ -353,8 +353,10 @@ button:hover {
     color: gray;
     padding: 10px;
     padding-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
-  
+
   .header-sm {
     display: none;
   }
