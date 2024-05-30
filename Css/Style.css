@@ -339,111 +339,123 @@
   }
 
 
-    .header-sm {
-      height: 100%;
-      width: 100%;
-      text-align: center;
-      background-color: #000;
-      color: #fff;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    }
+  .header-sm {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
 
-    .intro {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 35px;
-    }
+  .intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+  }
 
-    .web-dev-sm,.web-dev-lg {
-      font-weight: bolder;
-      font-size: 30px;
-      background-image: linear-gradient(207deg, #ca1a0a 40%, #a7190c 60%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+  .web-dev-sm,.web-dev-lg {
+    font-weight: bolder;
+    font-size: 30px;
+    background-image: linear-gradient(207deg, #ca1a0a 40%, #a7190c 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
+  .web-dev-sm {
+    text-align: center;
+    padding: 15px;
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  @media screen and (max-width:357px){
     .web-dev-sm {
-      text-align: center;
-      padding: 15px;
-      padding-right: 0px;
-      width: 100%;
+      font-size: 27px;
     }
+  }
 
-    @media screen and (max-width:357px){
-      .web-dev-sm {
-        font-size: 27px;
-      }
+  @media screen and (max-width:327px){
+    .web-dev-sm {
+      font-size: 26px;
     }
+  } 
 
-    @media screen and (max-width:327px){
-      .web-dev-sm {
-        font-size: 26px;
-      }
-    } 
+  .header-sm .myImage {
+    margin-top: 20px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0;
+  }
 
-    .header-sm .myImage {
-      margin-top: 20px;
-      padding-top: 10px;
-    }
+  .header-sm .lines {
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
-    .header-sm .lines {
-      font-size: 20px;
-      color: gray;
-      padding: 10px;
-      padding-bottom: 50px;
-      margin-right: 10px;
-      margin-left: 10px;
-    }
+  .header-sm {
+    display: none;
+  }
 
+  @media screen and (max-width: 1040px) {
     .header-sm {
-      display: none;
-    }
-
-    @media screen and (max-width: 649px) {
-      .header-sm {
-        display: block;
-      }
-    }
-
-    .header-lg {
-      height: 100%;
-      width: 100%;
-      background-color: #000;
-      color: #fff;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    }
-
-    .header-lg .myImage {
-      float: right;
-      padding-top: 15px;
-    }
-
-    .header-lg .intro {
-      padding-left: 50px; 
-      padding-top: 100px; 
-    }
-
-    .header-lg .lines {
-      font-size: 20px;
-      color: gray;
-      padding-left: 50px;
-      padding-bottom: 10px;
-    }
-
-    .header-lg .social-links {
-      padding-left: 50px;
-      padding-bottom: 100px;
-    }
-    
-    .header-lg {
       display: block;
     }
+  }
 
-    @media screen and (max-width: 768px) {
-      .header-lg {
-        display: none;
-      }
+  .header-lg {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @media screen and (min-width: 1700px) {
+    .header-lg {
+      padding-left: 300px;
+      padding-right: 300px;
     }
+  }
+
+
+  .header-lg .myImage {
+    float: right;
+    padding-top: 15px;
+  }
+
+  .header-lg .intro {
+    padding-left: 50px; 
+    padding-top: 100px; 
+  }
+
+  .header-lg .lines {
+    font-size: 20px;
+    color: gray;
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+
+  .header-lg .social-links {
+    padding-left: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .header-lg {
+    display: block;
+  }
+
+  @media screen and (max-width: 1040px) {
+    .header-lg {
+      display: none;
+    }
+  }
 
   .dash {
     width: 3%;
@@ -851,6 +863,7 @@
   @media screen and (max-width: 319px) {
     img,p,div,h3,h2,h1,h4,h5,h6,table,a,button,.sidenav,nav,.header-lg,.header-sm,.navbar,section{
       display: none;
+    }
   }
 
   .responsive-text {
@@ -864,6 +877,7 @@
     border-radius: 15px;
     padding: 10px;
   }
+
   .responsive-text img{
     display: inline;
   }
