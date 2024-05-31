@@ -113,6 +113,11 @@
     margin-right: 19px;
   }
 
+  .icon {
+    display: block;
+  }
+
+  
   @media screen and (min-height: 50px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -120,11 +125,11 @@
 
   @media screen and (min-width: 687px) {
     .icon {
-      display: none
+      display: none;
     }
   }
 
-  @media screen and (max-width: 685px) {
+  @media screen and (max-width: 687px) {
     .nav__links, header .cta{
       display: none;
     }
@@ -288,9 +293,9 @@
     color: #fff;
   }
 
-    .message-icon {
-      padding-right: 7px;
-    }
+  .message-icon {
+    padding-right: 7px;
+  }
 
   #loading{
       position: fixed;
