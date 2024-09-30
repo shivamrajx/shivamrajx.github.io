@@ -56,9 +56,6 @@
           h1 {
             margin: 10px;
           }
-          form{
-            margin: 20px;
-          }
         }
  
         .social-handle {
@@ -85,42 +82,6 @@
            margin: 20px;  
         }
 
-        form {
-           margin: 80px;
-        }
-
-        @media screen and (max-width: 672px) {
-          form{
-             margin: 20px;
-          }
-        }
-
-        .col-md-12 {
-           padding: 20px;
-        }
-
-        .form-control {
-           height: 50px;
-        }
-
-        #message {
-           height: auto;
-        }
-
-        .submit {
-           padding: 9px 25px;
-           background-color: #d53526;
-           border: none;
-           border-radius: 50px;
-           cursor: pointer;
-           transition: all 0.3s ease 0s;
-           color: #fff;
-        }
-
-       .submit:hover {
-           background-color:  #ca1a0a;
-       }
-
        .middle {
          text-align: left;
        }
@@ -130,6 +91,12 @@
              text-align: center;
           }
         }
+
+        @media screen and (max-width: 567px) {
+         iframe{
+            height: 1350px;
+         }
+      }
         
     </style>
 </head>
@@ -145,36 +112,7 @@
    <a href="https://github.com/shivamrajx" class="handle"><i class="fa-brands fa-github"></i></a>
    <a href="mailto:shivam1207raj@gmail.com" class="handle"><i class="fa-solid fa-envelope"></i></a>
 </div><br>
-
- <form action="https://formspree.io/f/mbjeannd" method="POST" id="contactForm" name="contactForm" class="contactForm" >
-    <div class="row">
-    <div class="col-md-12">
-    <div class="form-group">
-     <label for="name"><h5>Name</h5></label>
-     <input type="text" class="form-control" name="name" id="name" >
-    </div>
-    </div>
-    <div class="col-md-12">
-    <div class="form-group">
-     <label for="email"><h5>Email</h5></label>
-     <input type="email" class="form-control" name="email" id="email">
-    </div>
-    </div>
-    <div class="col-md-12">
-    <div class="form-group">
-     <label for="message"><h5>Message</h5></label>
-     <textarea name="message" class="form-control" id="message" cols="30" rows="8"></textarea>
-    </div>
-    </div>
-    <div class="col-md-12">
-    <div class="form-group"><center class="middle">
-    <input type="submit" value="Send Message" class="submit" id="submit">
-    <div class="submitting"></div></center>
-    </div>
-    </div>
-    </div>
-    </form>
-
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDD0F_5JwGdAm8kQB_RosEPZIN1s6efmhSgw8QDd5q4D8fbg/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity= "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 </script>
 
